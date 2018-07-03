@@ -1,4 +1,3 @@
-var playlist = {};
 var playlist = { hozier: "sedated" };
 
 function updatePlaylist(playlist, artistName, songTitle) {
