@@ -1,6 +1,6 @@
 var playlist = {};
 var playlist = { hozier: "sedated" };
 
-function updatePlaylist(playlist, artistName, songName) {
+function updatePlaylist(playlist, artistName, songTitle) {
   return Object.assign({}, playlist, { [artistName]:songName });
 }
